@@ -13,18 +13,13 @@ document.getElementById('add-btn').addEventListener("click", function(){
   }
 });
 
-// document.getElementById("p-1").innerText = "hello-1";
-// document.getElementById("p-2").innerText = "hello-1";
-// document.getElementById("p-3").innerText = "hello-1";
-// document.getElementById("p-4").innerText = "hello-1";
-
 
 document.getElementById("hit").addEventListener("click", function(){
     
- setInnerText("p-1", "Saudi");
- setInnerText("p-2", "Australia");
- setInnerText("p-3", "Finland");
- getInputValue("text-input");
+    setInnerText("p-1", "Saudi");
+    setInnerText("p-2", "Australia");
+    setInnerText("p-3", "Finland");
+    getInputValue("text-input");
     
 });
 function setInnerText(id, value){
@@ -34,3 +29,18 @@ function getInputValue(id){
     const value = document.getElementById(id).value;
     return value;
 };
+
+// document.getElementById("p-1").innerText = "hello-1";
+// document.getElementById("p-2").innerText = "hello-1";
+// document.getElementById("p-3").innerText = "hello-1";
+// document.getElementById("p-4").innerText = "hello-1";
+
+// document.getElementById("p-1").innerText = "hello-1";
+// document.getElementById("p-2").innerText = "hello-1";
+// document.getElementById("p-3").innerText = "hello-1";
+// document.getElementById("p-4").innerText = "hello-1";
+
+// document.getElementById("p-1").innerText = "hello-1";
+// document.getElementById("p-2").innerText = "hello-1";
+// document.getElementById("p-3").innerText = "hello-1";
+// document.getElementById("p-4").innerText = "hello-1";
